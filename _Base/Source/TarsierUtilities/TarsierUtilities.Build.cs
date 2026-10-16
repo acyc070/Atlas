@@ -11,6 +11,7 @@ public class TarsierUtilities : ModuleRules {
             "CoreUObject",
             "Engine",
             "InputCore",
+	    "DeveloperSettings",
         });
     }
 }

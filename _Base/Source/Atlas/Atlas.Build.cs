@@ -20,6 +20,7 @@ public class Atlas : ModuleRules {
             "SlateCore",
             "TarsierUtilities",
             "UMG",
+	    "DeveloperSettings",
         });
     }
 }
