@@ -6,7 +6,7 @@
 class USoundClass;
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class TARSIERUTILITIES_API UTarProjectSettingsAudio : public UObject {
+class TARSIERUTILITIES_API UTarProjectSettingsAudio : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

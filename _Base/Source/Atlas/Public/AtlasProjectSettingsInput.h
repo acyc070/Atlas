@@ -5,7 +5,7 @@
 #include "AtlasProjectSettingsInput.generated.h"
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class ATLAS_API UAtlasProjectSettingsInput : public UObject {
+class ATLAS_API UAtlasProjectSettingsInput : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

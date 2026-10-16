@@ -16,7 +16,7 @@ class UAtlasMenuWidget;
 class UAtlasPauseMenuWidget;
 
 UCLASS(Blueprintable, DefaultConfig, Config=Game)
-class ATLAS_API UAtlasProjectSettingsUI : public UObject {
+class ATLAS_API UAtlasProjectSettingsUI : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
